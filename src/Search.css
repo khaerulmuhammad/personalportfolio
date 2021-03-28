@@ -1,0 +1,23 @@
+.search {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 100vw;
+}
+
+
+
+.search > button {
+  font-family: monospace !important;
+  position: absolute;
+  left: 0;
+  top: 345px;
+  background-color: #06162d;
+  color: #63fdd8;
+  width: 580px;
+}
+
+.search > button:hover {
+  background-color: #4e9bff;
+  color: white;
+}

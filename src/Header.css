@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #001427;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  border: 1px solid #39b999;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  background-color: #06162d;
+  color: #39b999;
+  outline-width: 0;
+  border: none;
+  width: 250px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right > a :hover {
+  padding-right: 30px;
+  padding-left: 30px;
+  transition: 0.8s;
+  color: #f50057;
+}
+
+.header__right > p {
+  padding-right: 10px;
+  font-weight: 800;
+  color: #39b999;
+  font-family: monospace;
+}
+
+.header__center,
+.header__right > .MuiSvgIcon-root {
+  color: #39b999;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__right > .MuiSvgIcon-root {
+  color: #39b999;
+  justify-self: self-start;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.header__right > a {
+  padding: 20px;
+  color: #39b999;
+}
+
+.header__right > .MuiSvgIcon-root :hover {
+  color: white;
+}

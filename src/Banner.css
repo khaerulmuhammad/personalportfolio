@@ -1,0 +1,115 @@
+.banner {
+  height: 100vh;
+  background: url("./logokecil.JPG") center center;
+  position: relative;
+  justify-content: center;
+  background-size: 80%;
+}
+
+.banner__info {
+  color: gray;
+  background-color: none;
+  padding-top: 10vh;
+  align-items: center;
+  min-width: 200px;
+  padding-left: 200px;
+}
+
+.banner__info > h1 {
+  font-size: 50px;
+  color: lightgoldenrodyellow;
+}
+
+.banner__info > h2 {
+  font-size: 30px;
+  color: lightgray;
+  width: 350px;
+}
+
+.banner__searchButton {
+  font-family: monospace !important;
+  background-color: #06162d;
+  font-weight: 700;
+  text-transform: inherit;
+  color: #63fdd8;
+  border-radius: 999px;
+  border: 1px solid #63fdd8;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.banner__search > button {
+  background-color: #06162d;
+  border: 2px solid #39b999;
+  font-weight: bold;
+  height: 50px;
+  color: #39b999;
+  text-transform: inherit;
+  border-radius: 999px;
+}
+
+.banner__info > button {
+  font-family: monospace;
+  background-color: black;
+  border-radius: 999px;
+  color: #39b999;
+  border: 2px solid #39b999;
+  text-transform: inherit;
+  font-weight: 800;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  color: #39b999;
+}
+
+.banner__info > h5 {
+  padding-top: 10px;
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #a1a8b6;
+  width: 300px;
+}
+
+.banner__info > h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-family: monospace;
+  color: #39b999;
+}
+
+/*.umam__photo {//
+  background: url( 
+  "https://lh3.googleusercontent.com/-xajoTLHzPok/WHmbwkPW2aI/AAAAAAAAC54/iffA4oB5O5sUt4T7I0Q-nYMoYO28bQ5DgCEwYBhgLKtMDAL1Ocqyj1AJTUasV8rwyZoKxaVwD_508JS_CsFraIxaz6DkcmmuOzKwQX263M4bLGa5HwzWvQgyEO8kUt7VNrS4wFQQIB-RNPqah6dV4-h-88dFRqxSYMlETaf6rellzNV2wqlWirsENhDC41J-loL59NkUUtlSNURSy3DL7Ny7wsM5jBAQPQgXOCjkaa2MthHHgBn4jxZWfd3X_IEzBSN9illP_nQWWUMXAqOAQLzno15zf0EAvNw3wM62CWhJ348cjkp8T9xDU503hXOEZsncF89H2Kl_6vhHSPcJN3OmrnX1uBXGAqE-_OFc37ujqKu5vHgYZj2TsaoH9lztigz1hfX04ymwBaQY3YnKNd6xcyIpRgDypHHdJww_3ml8ryXPH35iMOM1jT5fAbWVowvBc2VmIXIOiQZomucV86AaP2rUI_WAQEMsSiJrip8b0EcFtNbhVepqoTX6Z2gMxcNmPEnd6AwASY9JA3zHjWfpwIzpyAOzFlcjG6I_75UiII9IUZTJkpBZHCt8TJENTD0asKyjrevf3uGVuzR3akK_VIUSTYobfpxX0XLbKJAb7u9kf1dwElEoEQIaj_R_CBev87phNO7rEk81Nkur3Tnh2tC8wrNG4ggY/w138-h140-p/20161122_184240-1-1.jpg" 
+);
+ 
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -450px;
+  margin-left: 590px;
+  min-width: fit-content;
+  height: 150px;
+  width: 140px;
+  position: absolute;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center ;
+ 
+}
+
+.umam__photo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(50deg,black, black);
+  opacity: 0.6;
+  box-shadow: 0px 9px 22px -3px rgba(57, 185, 153);
+  transition: transform 100ms ease-in;// */

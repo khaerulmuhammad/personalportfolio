@@ -1,0 +1,97 @@
+.formInput {
+  border-right: 2px solid #39b999;
+  border-left: 2px solid #39b999;
+  border-bottom: 2px solid #39b999;
+
+  border-radius: 999;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  color: #dfe6ec;
+  place-items: center;
+  padding-top: 30px;
+  background-color: #001427;
+}
+
+.formInput > input {
+  border-radius: 10px;
+  color: #dfe6ec;
+  border: none;
+  background-color: #28a4c3;
+  height: 25px;
+  outline: none;
+  font-family: monospace;
+  margin-top: 5px;
+  width: 300px;
+}
+
+.formInput > label {
+  color: #39b999;
+  font-size: 15px;
+  font-family: monospace;
+  justify-content: left;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.formInput > textarea {
+  border-radius: 10px;
+  color: #dfe6ec;
+  background-color: #28a4c3;
+  outline: none;
+  font-family: monospace;
+  min-width: 300px;
+  min-height: 200px;
+  margin-top: 5px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.formInput > button {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 700;
+  background-color: #f50057;
+  height: 30px;
+  color: whitesmoke;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  width: 170px;
+  border-radius: 999px;
+}
+
+.formInput > button:hover {
+  position: relative;
+  background-color: #ff4569;
+  color: whitesmoke;
+  width: 170px;
+}
+
+.formInput > h4 {
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.formInput > h3 {
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.formInput > h1 {
+  margin-bottom: 50px;
+  font-family: monospace;
+}
+
+.formInput > h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.typograph {
+  color: #39b999;
+  font-family: fantasy;
+}
